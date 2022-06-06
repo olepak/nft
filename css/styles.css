@@ -1,7 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap");
+
 :root {
 	--margin-bottom: 18px;
 }
+
 body {
 	max-width: 1440px;
 	min-width: 375px;
@@ -12,61 +14,85 @@ body {
 	background-color: white;
 	font-weight: 400;
 }
-.main-image {
-	width: 100%;
-	border-radius: 10px;
-	margin-bottom: var(--margin-bottom);
-}
-p {
-	margin-bottom: var(--margin-bottom);
-	font-size: 18px;
-	font-weight: 300;
-}
+
 h1 {
 	color: hsl(0, 0%, 100%);
-	margin-bottom: var(--margin-bottom);
+	margin-bottom: 12px;
 	font-weight: 600;
 	font-size: 22px;
-	letter-spacing: normal;
 }
+h1:hover {
+	color: hsl(178, 100%, 50%);
+	cursor: pointer;
+}
+
 hr {
 	border: 1px solid hsl(215, 32%, 27%);
-	margin-bottom: 15px;
+	margin-bottom: 16px;
 }
 
 .container {
 	width: 350px;
 	margin: auto;
-	padding: 22px;
+	padding: 24px;
 	box-sizing: border-box;
 	border-radius: 15px;
 	background-color: hsl(216, 50%, 16%);
 }
+
+.main-image {
+	width: 100%;
+	border-radius: 10px;
+	margin-bottom: 22px;
+}
+.first-p {
+	font-size: 18px;
+	font-weight: 300;
+	margin-bottom: 20px;
+}
+
 .row {
 	display: flex;
 	justify-content: space-between;
-	margin-bottom: 4px;
+	align-items: center;
+	margin-bottom: 21px;
 }
-.row p {
+
+.row-item {
+	display: flex;
+	align-items: center;
 	font-size: 16px;
 }
-.row p:first-child {
+
+.row-item:first-child p {
 	color: hsl(178, 100%, 50%);
+	margin-left: 8px;
+	font-weight: 600;
+}
+.row-item:last-child p {
+	margin-left: 9px;
+	padding-right: 3px;
 }
 .credits {
 	display: flex;
 	align-items: center;
 	font-size: 16px;
-	margin-bottom: 12px;
+	margin-bottom: 9px;
+	font-weight: 400;
 }
 .credits p {
-	font-size: 16px;
-	margin-left: 5px;
+	margin-left: 7px;
 	margin-bottom: 0;
 }
+
 .credits span {
 	color: white;
 }
+.credits span:hover {
+	color: hsl(178, 100%, 50%);
+	cursor: pointer;
+}
+
 .credits img {
 	width: 33px;
 	height: 33px;
