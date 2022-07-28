@@ -36,4 +36,4 @@ This is a solution to the [NFT preview card component](https://www.frontendmento
 ## Author
 
 - Frontend Mentor - [@olepak](https://www.frontendmentor.io/profile/olepak)
-- Twitter - [@LepakOleksandr](https://twitter.com/LepakOleksandr)
+- Twitter - [@OleksandrLepak](https://twitter.com/OleksandrLepak)
